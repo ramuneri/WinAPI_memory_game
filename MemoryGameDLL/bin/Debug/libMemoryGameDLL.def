@@ -1,0 +1,8 @@
+EXPORTS
+    FlipCard @1
+    GetAttempts @2
+    GetCardValue @3
+    GetMatchedPairs @4
+    HideCards @5
+    IsCardVisible @6
+    NewGame @7

@@ -1,0 +1,40 @@
+#include <windows.h>
+#include "resource.h"
+
+IDR_MAIN_MENU MENU
+BEGIN
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "&New Game", IDM_NEW_GAME
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit", IDM_EXIT
+    END
+
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About", IDM_ABOUT
+    END
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 220, 115
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Memory Game"
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT "Memory Game", -1, 12, 12, 196, 14
+
+    LTEXT "Find all eight matching pairs.\nTry to use as few attempts as possible.", -1, 12, 32, 196, 28
+
+    LTEXT "Built with C++, WinAPI and a dynamically loaded DLL.", -1, 12, 66, 196, 20
+
+    DEFPUSHBUTTON "OK", IDOK, 85, 94, 50, 14
+END
+
+IDB_CARD1 BITMAP "images/card1.bmp"
+IDB_CARD2 BITMAP "images/card2.bmp"
+IDB_CARD3 BITMAP "images/card3.bmp"
+IDB_CARD4 BITMAP "images/card4.bmp"
+IDB_CARD5 BITMAP "images/card5.bmp"
+IDB_CARD6 BITMAP "images/card6.bmp"
+IDB_CARD7 BITMAP "images/card7.bmp"
+IDB_CARD8 BITMAP "images/card8.bmp"
