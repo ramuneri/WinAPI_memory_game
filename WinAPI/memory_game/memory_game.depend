@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1793542482 source:c:\users\ramun\desktop\winapi\memory_game\main.cpp
+	<windows.h>
+	<string>
+
+1793552353 source:c:\users\ramun\desktop\winapi\memory_game\game.rc
+	<windows.h>
+	"resource.h"
+
+1793552418 c:\users\ramun\desktop\winapi\memory_game\resource.h
+

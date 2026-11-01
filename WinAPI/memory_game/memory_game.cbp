@@ -37,7 +37,20 @@
 			<Add library="kernel32" />
 			<Add library="comctl32" />
 		</Linker>
+		<Unit filename="../../../Downloads/celestial_cards/images" />
+		<Unit filename="game.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="images/card1.bmp" />
+		<Unit filename="images/card2.bmp" />
+		<Unit filename="images/card3.bmp" />
+		<Unit filename="images/card4.bmp" />
+		<Unit filename="images/card5.bmp" />
+		<Unit filename="images/card6.bmp" />
+		<Unit filename="images/card7.bmp" />
+		<Unit filename="images/card8.bmp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="resource.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
